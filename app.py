@@ -9,7 +9,7 @@ choice_options=st.sidebar.selectbox("",('Home','Start webcam','About'))
 
 if choice_options=="Home":
     st.title('👨Face Emotion Recognition using Live Web Camera👩')
-    image = Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\face.jpeg')
+    image = Image.open('data/face.jpeg')
     st.image(image)
     st.sidebar.subheader("""💎 Face Emotion Recognition is a system used to detect the emotions from face.""")
     st.sidebar.subheader("""💎 Nowadays it is widely used applications.Eg: In zoom meeting we can able to detect the student emotion.""")
@@ -22,13 +22,13 @@ if choice_options=="About":
     st.title('Project Members')
     col1, col2= st.columns(2)
     with col1:
-        image_1= Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\ape.png')
+        image_1= Image.open('data/ape.png')
         st.subheader("Ashik Kumar")
         st.image(image_1)
         st.write("Email:ashikkumar491@gmail.com")
         st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/ashik-kumar-94a06a207)""")
     with col2:
-        image_2 = Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\akasl.png')
+        image_2 = Image.open('data/akasl.png')
         st.subheader("Harish Patil")
         st.image(image_2)
         st.write("Email:harishpatil0172@gmail.com")
@@ -36,21 +36,21 @@ if choice_options=="About":
 
     col1, col2= st.columns(2)
     with col1:
-        image_3 = Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\jai.png')
+        image_3 = Image.open('data/jai.png')
         st.subheader("Jai Harish S")
         st.image(image_3)
         st.write("Email:jaiharishs361@gmail.com")
         st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/jai-harish-s-64b1b01ab)""")
     with col2:
-        image_1 = Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\pranil.png')
+        image_1 = Image.open('data/pranil.png')
         st.subheader("Pranil Satish Thorat")
         st.image(image_1)
         st.write("Email:pranilthorat@gmail.com")
-        st.markdown("""[LinkedIn] (https://www.linkedin.com/in/pranil-thorat-834361216)""")
+        st.markdown("""[LinkedIn](https://www.linkedin.com/in/pranil-thorat-834361216)""")
 
     col1,col2=st.columns(2)
     with col1:
-        image_2 = Image.open('C:\\Users\\JAI HARISH\\Downloads\\Facial_emotion\\Facial_emotion_capstone_project\\data\\saransh.png')
+        image_2 = Image.open('data/saransh.png')
         st.subheader("Saransh Srivastava")
         st.image(image_2)
         st.write("Email:saranshoffice@gmail.com")
