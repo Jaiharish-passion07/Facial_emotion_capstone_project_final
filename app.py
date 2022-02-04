@@ -28,34 +28,24 @@ if choice_options=="About":
         st.write("Email:ashikkumar491@gmail.com")
         st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/ashik-kumar-94a06a207)""")
     with col2:
-        image_2 = Image.open('data/akasl.png')
-        st.subheader("Harish Patil")
+        image_2 = Image.open('data/jai.png')
+        st.subheader("Jai Harish S")
         st.image(image_2)
-        st.write("Email:harishpatil0172@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/harish-patil-4a2173190)""")
+        st.write("Email:jaiharishs361@gmail.com")
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/jai-harish-s-64b1b01ab)""")
 
     col1, col2= st.columns(2)
     with col1:
-        image_3 = Image.open('data/jai.png')
-        st.subheader("Jai Harish S")
-        st.image(image_3)
-        st.write("Email:jaiharishs361@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/jai-harish-s-64b1b01ab)""")
-    with col2:
-        image_1 = Image.open('data/pranil.png')
+        image_3 = Image.open('data/pranil.png')
         st.subheader("Pranil Satish Thorat")
-        st.image(image_1)
+        st.image(image_3)
         st.write("Email:pranilthorat@gmail.com")
-        st.markdown("""[LinkedIn](https://www.linkedin.com/in/pranil-thorat-834361216)""")
-
-    col1,col2=st.columns(2)
-    with col1:
-        image_2 = Image.open('data/saransh.png')
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/pranil-thorat-834361216)""")
+    with col2:
+        image_4 = Image.open('data/saransh.png')
         st.subheader("Saransh Srivastava")
-        st.image(image_2)
+        st.image(image_4)
         st.write("Email:saranshoffice@gmail.com")
         st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/saranshsrivastava13)""")
-    with col2:
-        pass
 
 
