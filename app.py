@@ -47,5 +47,14 @@ if choice_options=="About":
         st.image(image_4)
         st.write("Email:saranshoffice@gmail.com")
         st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/saranshsrivastava13)""")
+    col1, col2= st.columns(2)
+    with col1:
+        image_5 = Image.open('data/akasl.png')
+        st.subheader("Bhaskar subanji")
+        st.image(image_5)
+        st.write("Email:bysubanji@gmail.com")
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/bysubanji)""")
+    with col2:
+        pass
 
 
