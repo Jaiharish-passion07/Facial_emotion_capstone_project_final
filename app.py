@@ -4,8 +4,6 @@ from model_predict import *
 from streamlit_webrtc import webrtc_streamer
 
 st.title("✨ Welcome ✨")
-st.write("Its amazing")
-st.write("Super da githubuu😁😁")
 st.sidebar.title("🎇Choose an options🎇")
 choice_options=st.sidebar.selectbox("",('Home','Start webcam','About'))
 
