@@ -196,10 +196,14 @@ While the Notebook includes all of the information
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
+- Python
+- Streamlit
+- Keras
+- Tensorflow
+- Image Preprocessing
+- Convloutional Neural Network
+- Transfer Learning Techniques
+- Data Visualization
 
 ## Demonstration of Short Video
 
