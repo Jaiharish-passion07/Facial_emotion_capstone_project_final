@@ -3,8 +3,9 @@
 
 A face emotion recognition system is used to identify emotions in humans like happiness, anger, sadness, etc. This approach is helpful in many real-world applications today, such as the education system. When using video conferencing in e-learning systems, this technology can identify the emotional states of the learners. This tech instantaneously communicates the students' emotional states to the teacher to promote a more engaging learning environment.
 
+![cover_1](https://user-images.githubusercontent.com/78978975/182883197-b2ce4897-61f3-4966-92a5-01b7c197f088.jpg)
 
-
+![cover_2](https://user-images.githubusercontent.com/78978975/182883228-eb091154-ce7c-4fd8-983e-6f708d69e01d.jpg)
 
 ## Aim of the Project
 
