@@ -25,8 +25,10 @@ The face emotion dataset is fetched from Kaggle. The below Images show the summa
 
 ![collage](https://user-images.githubusercontent.com/78978975/182879453-04fc7bef-f6e9-4b8f-a1bd-efc5f37e63e3.jpg)
 
-![emotions](https://user-images.githubusercontent.com/78978975/182879665-984e9d73-f6e3-4e47-a585-aa84d2d15f31.png)
 
+**Various Emotion Images**
+
+![emo](https://user-images.githubusercontent.com/78978975/182881369-f5815c51-e021-4be4-b8da-f47afe6fea28.jpg)
 
 [**Dataset_here**](https://www.kaggle.com/datasets/deadskull7/fer2013)
 
@@ -41,6 +43,8 @@ The face emotion dataset is fetched from Kaggle. The below Images show the summa
 |Densenet|
 |Resnet|
 
+**Accuracy Plot**
+
 ![Screenshot (440)](https://user-images.githubusercontent.com/78978975/182879973-b9718377-bb94-47f7-820e-cc5636fcea18.png)
 
 The ResNet model was chosen because it had the highest training accuracy of all
@@ -49,6 +53,7 @@ comparable to CNN models
 
 
 [To view the Resnet Model binary file](https://github.com/Jaiharish-passion07/Facial_emotion_capstone_project_final/tree/master/model)
+
 ## Runs Locally
 
 This project is developed as a Real time Applications by capturing live video from Local Machine 
