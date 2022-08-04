@@ -23,11 +23,13 @@ The main objective is to develop a system for recognising facial expressions of 
 
 The face emotion dataset is fetched from Kaggle. The below Images show the summary of the dataset.
 
-Collage Images
+![collage](https://user-images.githubusercontent.com/78978975/182879453-04fc7bef-f6e9-4b8f-a1bd-efc5f37e63e3.jpg)
 
-eMOTIONS Images
+![emotions](https://user-images.githubusercontent.com/78978975/182879665-984e9d73-f6e3-4e47-a585-aa84d2d15f31.png)
 
-[Dataset](https://www.kaggle.com/datasets/deadskull7/fer2013)
+
+[**Dataset_here**](https://www.kaggle.com/datasets/deadskull7/fer2013)
+
 ## Model Building
 
 
@@ -39,8 +41,7 @@ eMOTIONS Images
 |Densenet|
 |Resnet|
 
-Accuray plot
-
+![Screenshot (440)](https://user-images.githubusercontent.com/78978975/182879973-b9718377-bb94-47f7-820e-cc5636fcea18.png)
 
 The ResNet model was chosen because it had the highest training accuracy of all
 the models, and its validation accuracy was nearly 72 percent, which is
@@ -199,4 +200,4 @@ While the Notebook includes all of the information
 
 Demonstration of facial emotion recognition in real-time live video capture and recording video
 
-video_file
+https://user-images.githubusercontent.com/78978975/182880068-907a2f69-47f7-4020-b046-62a097a76a78.mp4
